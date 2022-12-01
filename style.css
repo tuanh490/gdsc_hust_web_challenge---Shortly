@@ -164,7 +164,7 @@ h1 {
     margin-right: 20px;
     padding-left: 40px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Poppins';
     font-size: 1rem;
     opacity: 0.9;
@@ -176,7 +176,7 @@ h1 {
     min-width: 150px;
     padding: 1rem 1rem;
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Poppins';
     font-size: 1.1rem;
     font-weight: 700;
@@ -369,7 +369,7 @@ footer .three {
 }
 
 .msg {
-    display: none;
+    visibility: hidden;
     color: rgb(231, 84, 84);
     font-size: 0.8rem;
     font-style: italic;
@@ -378,7 +378,7 @@ footer .three {
 }
 
 .invalid .msg {
-    display: inline-block;
+    visibility: visible;
 }
 
 @media (max-width: 870px) {
@@ -718,7 +718,7 @@ footer .three {
         justify-content: center;
     }
 
-    .mediaIcon:last-of-type {
+    .three a:last-of-type .mediaIcon {
         margin-right: 0;
     }
 }
