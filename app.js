@@ -72,11 +72,11 @@ list.addEventListener('click', e => {
     }
 });
 
-if (form.elements.input.value.trim() == '') {
-    inputLink.onblur = (() => {
-        form.classList.add('invalid')
-    })
-}
+inputLink.onblur = (() => {
+    if (form.elements.input.value.trim() == '') {
+        form.classList.add('invalid');
+    }
+})
 
 inputLink.addEventListener('click', () => {
     form.classList.remove('invalid');
