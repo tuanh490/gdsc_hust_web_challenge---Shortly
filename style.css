@@ -465,7 +465,7 @@ footer .three {
     .dropdownContent {
         display: none;
         width: 80%;
-        height: 50vh;
+        height: auto;
         border-radius: 10px;
         position: absolute;
         top: 15vh;
@@ -517,6 +517,10 @@ footer .three {
     .signin a,
     #signup {
         margin: 0;
+    }
+
+    #signup {
+        margin-bottom: 10%;
     }
 
     .signin {
